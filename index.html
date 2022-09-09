@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fun Translation App</title>
+
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;0,700;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="nav-container">
+      <div class="nav-header">
+        <h2>Fun Translation App</h2>
+      </div>
+    </nav>
+    <main class="main-container">
+      <h1>
+        Hi there 👋🏻 <br />
+        Welcome!!
+      </h1>
+
+      <br />
+
+      <section class="text-container">
+        <textarea
+          id="english-input"
+          placeholder="Add your message here and see the magic"
+          rows="10"
+        ></textarea>
+        <div class="btn-container">
+          <div class="language-selector">
+            <label for="lang">Select a Language</label>
+            <select id="lang" class="select-lang">
+              <option value="yoda" selected>Yoda</option>
+              <option value="pirate">Pirate</option>
+              <option value="dothraki">Dothraki</option>
+              <option value="hodor">Hodor</option>
+              <option value="vulcan">Vulcan</option>
+              <option value="groot">Groot</option>
+              <option value="morse">Moorse Code</option>
+              <option value="navi">Navi</option>
+            </select>
+          </div>
+          <button class="translate-btn">Translate</button>
+        </div>
+        <div class="minion-output">
+          <p>You will see the translation here!! 👇</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <h2>☀️ ☀️ About ☀️ ☀️</h2>
+      <br />
+      <p>
+        This app converts your normal plain old english into fun character based
+        language.
+      </p>
+    </footer>
+  </body>
+</html>
